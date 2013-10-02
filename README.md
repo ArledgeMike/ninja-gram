@@ -1,15 +1,17 @@
-*** README FOR RESPONSAGRAM ***
+Ninja-Gram #
+===========
+<img src ="https://raw.github.com/ArledgeMike/ninja-gram/master/images/ninjagram.png" />
+<h2>Responsive, Jquery, Instagram Hashtag Gallery<h2> <p>Version 1.0 - gaiden</P>
 
-Everything you need is in the zip when you download. Include main.js and all of the html in index.html. Oauth token will expire so get a new one. CSS tweak points are at the bottom of the CSS. This is just meant to be a quick and dirty responsive web app.
+<ul>
+DEPLOY OPERATION
 
-//** INSTRUCTIONS **//
-Change the data attribute in index.html to the hashtag you would like to find. Set it and forget it.
+<li> 1.) Download Ninja-Gram and open your instagram developer account. </li>
 
+<li> 2.) Register the Ninja-gram app in the Instagram backend and replace the client_id and redirect_uri in index.html to your specs</li>
 
+<li> 3.) Inside confirm.html you can change the hash tag being searched for by changing "data" inside <div id="container"> </li>
 
-More work visit www.codeandpen.com or follow on facebook.com/codeandpen
+</ul>
 
-Always open to feedback.
-
-Mike Arledge (hire me)
-arledgemike@gmail.com
+<p>This is the source code for the SBCHI instagator. Registering the app is necessary to acquire a client_id and redirect_uri to get an access token. Responsive grid styles are listed in styles.css</p>
